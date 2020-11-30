@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Covid-19</title>
+
+    <!-- favicon  -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="ite.webmanifest">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#ffc40d">
+    <meta name="theme-color" content="#ffffff">
+    <!-- end of favicon -->
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myNavbar");
+            if (x.className === "navbar-top") {
+                x.className += " responsive";
+            } else {
+                x.className = "navbar-top";
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+    <!-- preloader  -->
+    <div class="preloader">
+        <div class="preloader-container">
+            <span class="animated-preloader"></span>
+        </div>
+    </div>
+    <!-- end of preloader  -->
+
+
+    <!-- navigation  -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="navigate">
+                <div>
+                    <a href="#" class="covid-navbar" data-scroll="#covid">Covid-19</a>
+                </div>
+
+                <div class="navbar-top" id="myNavbar">
+                    <a href="#"></a>
+                    <a href="#" class="top-links" data-scroll="#Statistic" id="toplinks">Statistic</a>
+                    <a href="#" class="top-links" data-scroll="#FAQs" id="toplinks">FAQs</a>
+                    <a href="#" class="top-links" data-scroll="#Prevent" id="toplinks">Prevent</a>
+                    <a href="#" class="top-links" data-scroll="#Symptoms" id="toplinks">Symptoms</a>
+                    <a href="contact-us.html" class="top-links" id="toplinks">Contact Us</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <!-- end of navigation  -->
+
+    <!-- head section  -->
+    <section class="head-section" id="covid">
+        <div class="container">
+            <div class="head-inner">
+
+                <div class="main-text">
+                    <p class="head-first-p">Covid-19 awareness</p>
+                    <h1 class="head-title">Stay Safe. Stay Home.</h1>
+                    <p class="head-second-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel a, nulla incidunt eaque sit praesentium porro consectetur optio!</p>
+
+                    <button class="how-to-prevent" data-scroll="#Prevent">how to prevent</button>
+                </div>
+
+                <div class="main-img">
+                    <img src="images/illustration.png" alt="">
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- end of head section  -->
+
+    <!-- statistics  -->
+    <section class="statistic" id="Statistic">
+        <div class="container">
+            <div class="statistic-text">
+                <h1 class="stat-title">Coronavirus Statistics</h1>
+                <p class="stat-first-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, voluptate!</p>
+            </div>
+
+            <div class="numbers">
+                <div>
+                    <img src="images/002-virus.svg " alt="" style="width: 32px; height: 40px; ">
+                    <p class="number-of-case">62,730,726</p>
+                    <p class="numbers-text">active cases</p>
+                </div>
+
+                <div>
+                    <img src="images/002-virus.svg " alt="" style="width: 32px; height: 40px; ">
+                    <p class="number-of-case">1,459,317</p>
+                    <p class="numbers-text">deaths</p>
+                </div>
+
+                <div>
+                    <img src="images/002-virus.svg " alt="" style="width: 32px; height: 40px; ">
+                    <p class="number-of-case">40,127,625</p>
+                    <p class="numbers-text">recovered cases</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- end of statistic  -->
+
+    <!-- what is coronovirus  -->
+    <section class="what-is" id="FAQs">
+        <div class="container ">
+            <div class="what-is-flex">
+
+                <div class="what-is-image-blocks">
+                    <span><p>Watch the Video</p><a href="https://www.youtube.com/watch?v=NMre6IAAAiU " target="_blank "><img src="images/play-button-arrowhead.svg " alt=" " width="30px; " height="30px " ></a></span>
+                    <img src="images/hero_1.jpg" alt="">
+                </div>
+
+                <div class="right-column">
+                    <h1 class="right-title">What is Coronavirus?</h1>
+                    <p class="right-column-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex officia quas, modi sit eligendi numquam!</p>
+                    
+                    <ul class="image-list" >
+                        <li> <img src="images/001-check.svg " alt="" style="width: 18px; height: 18px; ">
+                            <p class="list-text" >Lorem ipsum dolor sit amet</p>
+                        </li>
+
+                        <li> <img src="images/001-check.svg " alt=" " style="width: 18px; height: 18px; ">
+                            <p class="list-text" >Lorem ipsum dolor sit amet</p>
+                        </li>
+
+                        <li> <img src="images/001-check.svg " alt=" " style="width: 18px; height: 18px; ">
+                            <p class="list-text" >Lorem ipsum dolor sit amet</p>
+                        </li>
+
+                    </ul>
+                    
+                    <a href="https://www.who.int/health-topics/coronavirus#tab=tab_1 " target="_blank "><button class="learn-more"> learn more</button></a>
+              
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--end of what is coronovirus  -->
+
+
+    <!-- icons section  -->
+    <section class="icons-section ">
+        <div class="container ">
+            <div class="icons ">
+
+                <div class="icon-paragraph">
+                    <div class="icon-flex">
+                        <img src="images/001-protection.svg " alt=" " style="width: 40px; height: 41px; ">
+                        <div class="icons-text ">
+                            <h3>Protection</h3>
+                            <p style="color: gray; font-size: 14px; margin-top: -10px; ">Lorem ipsum dolor sit.</p>
+                        </div>
+                    </div>
+
+                    <div class="icon-flex">
+                        <img src="images/003-patient.svg " alt=" " style="width: 40px; height: 41px; ">
+                        <div class="icons-text ">
+                            <h3>Prevention</h3>
+                            <p style="color: gray; font-size: 14px; margin-top: -10px; ">Lorem ipsum dolor sit.</p>
+                        </div>
+                    </div>
+
+                    <div class="icon-flex">
+                        <img src="images/004-hair-treatment.svg " alt=" " style="width: 40px; height: 41px; ">
+                        <div class="icons-text ">
+                            <h3>Treatments</h3>
+                            <p style="color: gray; font-size: 14px; margin-top: -10px; ">Lorem ipsum dolor sit.</p>
+                        </div>
+                    </div>
+
+                    <div class="icon-flex">
+                        <img src="images/002-virus.svg " alt=" " style="width: 40px; height: 41px; ">
+                        <div class="icons-text ">
+                            <h3>Symptoms</h3>
+                            <p style="color: gray; font-size: 14px; margin-top: -10px; ">Lorem ipsum dolor sit.</p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- end of icons section  -->
+
+
+
+    <!-- cards  -->
+    <section class="cards" id="Prevent">
+        <div class="container">
+            <div class="cards-inner">
+                <div>
+                    <div class="row-1">
+
+                        <div class="card" style="margin-top: 150px; ">
+                            <img src="images/005-dog-house.svg " alt=" " class="card-image " style="width: 50px; height: 53px; margin-top: 40px; ">
+                            <hr>
+                            <h3>Stay at home</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, debitis!</p>
+                        </div>
+
+                        <div class="card" style="margin-left: 20px; ">
+                            <img src="images/006-social-distancing.svg " alt=" " class="card-image " style="width: 50px; height: 53px; margin-top: 40px; ">
+                            <hr>
+                            <h3 style="margin-left: 0; ">Keep social distancing</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, debitis!</p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="row-2">
+
+                        <div class="card" style="margin-top: 150px; margin-top: 40px; ">
+                            <img src="images/003-patient.svg " alt=" " class="card-image " style="width: 50px; height: 53px; margin-top: 40px; ">
+                            <hr>
+                            <h3>Wear facemask</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, debitis!</p>
+                        </div>
+
+                        <div class="card" style="margin-left: 20px; margin-top: -100px; ">
+                            <img src="images/007-hand-washing.svg " alt=" " class="card-image " style="width: 50px; height: 53px; margin-top: 40px; ">
+                            <hr>
+                            <h3>Wash your hands</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, debitis!</p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="right-column-prevent">
+                    <h1>How to Prevent Coronavirus?</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque corporis doloribus consequatur fugit voluptatum ex rerum perspiciatis cupiditate, esse hic!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, error!</p>
+                    <ul class="image-list-card">
+                        <li> <img src="images/001-check.svg " alt=" " style="width: 18px; height: 18px; margin-right: 15px; color: gray; ">
+                            <p>Lorem ipsum dolor sit amet</p>
+                        </li>
+
+                        <li> <img src="images/001-check.svg " alt=" " style="width: 18px; height: 18px; margin-right: 15px; color: gray; ">
+                            <p>Lorem ipsum dolor sit amet</p>
+                        </li>
+
+                        <li> <img src="images/001-check.svg " alt=" " style="width: 18px; height: 18px; margin-right: 15px; color: gray; ">
+                            <p>Lorem ipsum dolor sit amet</p>
+                        </li>
+
+                    </ul>
+                    <a href="https://www.who.int/health-topics/coronavirus#tab=tab_2 " target="_blank "><button class="read-more">read more about prevention</button> </a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- end of cards  -->
+
+
+    <!-- how to protect  -->
+    <section class="how-to-protect">
+        <div class="container ">
+            <div class="protect ">
+
+                <div>
+                    <p style="font-size: 14px; color: gray; margin-bottom: -15px; ">What you need to do</p>
+                    <h1 style="font-size: 30px; font-weight: 700; ">How To Protect Yourself</h1>
+                    <p style="font-size: 14px; color: gray; margin-top: 0; margin-bottom: 50px; ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex officia quas, modi sit eligendi numquam!</p>
+                </div>
+
+                <div class="list-and-image-part">
+                    <div>
+                        <p>You should do</p>
+                        <ul class="long-list-1">
+                            <li> <img src="images/check.svg " alt=" " style="width: 16px; height: 16px; margin-right: 10px; "> Stay at home</li>
+                            <li> <img src="images/check.svg " alt=" " style="width: 16px; height: 16px; margin-right: 10px; ">Wear mask</li>
+                            <li> <img src="images/check.svg " alt=" " style="width: 16px; height: 16px; margin-right: 10px; ">Use Sanitizer</li>
+                            <li> <img src="images/check.svg " alt=" " style="width: 16px; height: 16px; margin-right: 10px; ">Disinfect your home</li>
+                            <li> <img src="images/check.svg " alt=" " style="width: 16px; height: 16px; margin-right: 10px; ">Wash your hands</li>
+                            <li> <img src="images/check.svg " alt=" " style="width: 16px; height: 16px; margin-right: 10px; ">Frequent self-isolation</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <p>You should avoid</p>
+                        <ul class="long-list-2">
+                            <li> <img src="images/cross.svg " alt=" " style="width: 16px; height: 16px; margin-right: 10px; "> Avoid infected people</li>
+                            <li> <img src="images/cross.svg " alt=" " style="width: 16px; height: 16px; margin-right: 10px; ">Avoid animals</li>
+                            <li> <img src="images/cross.svg " alt=" " style="width: 16px; height: 16px; margin-right: 10px; ">Avoid handshaking</li>
+                            <li> <img src="images/cross.svg " alt=" " style="width: 16px; height: 16px; margin-right: 10px; ">Aviod infected surfaces</li>
+                            <li> <img src="images/cross.svg " alt=" " style="width: 16px; height: 16px; margin-right: 10px; ">Don't touch your face</li>
+                            <li> <img src="images/cross.svg " alt=" " style="width: 16px; height: 16px; margin-right: 10px; ">Avoid droplets</li>
+                        </ul>
+                    </div>
+
+
+
+                    <div class="protect-image ">
+                        <img src="images/protect.png " alt=" ">
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- end of how to protect  -->
+
+    <!-- Symptoms  -->
+    <section class="symptoms " id="Symptoms">
+        <div class="container ">
+            <div class="symptoms-inner ">
+                <h1 style="font-size: 30px; font-weight: 700; ">Symptoms of Coronavirus</h1>
+                <p style="font-size: 14px; color: gray; margin-bottom: 40px; ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex officia quas, modi sit eligendi numquam!</p>
+
+                <div class="long-cards ">
+                    <div class="row-3 ">
+                        <div class="long-card ">
+                            <img src="images/symptom_high-fever.png " alt=" " style="width: 80px; height: 100px; margin-left: 20px; ">
+                            <div style="margin-left: 20px; ">
+                                <h4>High Fever</h4>
+                                <p style="color: gray; ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum ipsum repellendus animi modi iure provident, cupiditate perferendis voluptatem!</p>
+                            </div>
+                        </div>
+
+                        <div class="long-card ">
+                            <img src="images/symptom_cough.png " alt=" " style="width: 80px; height: 100px; margin-left: 20px; ">
+                            <div style="margin-left: 20px; ">
+                                <h4>Cough</h4>
+                                <p style="color: gray; ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla ullam illo laborum repellendus vel esse dolor, sunt exercitationem.</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="row-4 ">
+                        <div class="long-card ">
+                            <img src="images/symptom_sore-troath.png " alt=" " style="width: 80px; height: 100px; margin-left: 20px; ">
+                            <div style="margin-left: 20px; ">
+                                <h4>Sore Troath</h4>
+                                <p style="color: gray; ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum esse voluptatum, vel inventore at! Ullam, libero reiciendis amet?</div>
+                        </div>
+
+                        <div class="long-card ">
+                            <img src="images/symptom_headache.png " alt=" " style="width: 80px; height: 100px; margin-left: 20px; ">
+                            <div style="margin-left: 20px; ">
+                                <h4>Headache</h4>
+                                <p style="color: gray; ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus autem voluptatem ratione veniam rerum qui quibusdam reprehenderit quis.</div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="down-title">
+                    <p> <span> Stay at home and call your doctor:</span> Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit. Accusantium, eaque.</p>
+                    <a href="contact-us.html "><button class="help-line ">help line</button></a>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!--end of Symptoms  -->
+
+
+    <!-- footer  -->
+    <footer class="footer">
+        <div class="container ">
+            <div class="footer-columns">
+
+                <div class="column-1">
+                    <p style="margin-bottom: 20px; ">About</p>
+                    <p style=" color: gray; font-size: 14px; margin-bottom: 20px; margin-top: 40px; ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi cumque tenetur inventore veniam, hic vel ipsa necessitatibus ducimus architecto fugiat!</p>
+                    <div class="social-icons ">
+                        <a href="https://www.facebook.com/ "><img src="images/008-facebook-app-symbol.svg " alt=" " style="width: 21px; height: 23px; margin-right: 15px; margin-top: 10px; "></a>
+                        <a href="https://twitter.com/ "><img src="images/009-twitter.svg " alt=" " style="width: 21px; height: 23px; margin-right: 15px; margin-top: 10px; "></a>
+                        <a href="https://www.instagram.com/ "><img src="images/010-instagram.svg " alt=" " style="width: 21px; height: 23px; margin-right: 15px; margin-top: 10px; "></a>
+                        <a href="https://www.linkedin.com/ "><img src="images/011-linkedin.svg " alt=" " style="width: 21px; height: 23px; margin-right: 15px; margin-top: 10px; "></a>
+                    </div>
+                </div>
+
+                <div class="column-2">
+                    <p>Quick Links</p>
+                    <li><a href="# " data-scroll="#Statistic">Statistic</a></li>
+                    <li><a href="# " data-scroll="#FAQs">FAQs</a></li>
+                    <li><a href="# " data-scroll="#Prevent">Prevent</a></li>
+                    <li><a href="# " data-scroll="#Prevent">Protect</a></li>
+                    <li><a href="# " data-scroll="#Symptoms">Symptoms</a></li>
+                </div>
+
+                <div class="column-3">
+                    <p>Helpful Link</p>
+                    <li><a href="# ">Helathcare Professional</a></li>
+                    <li><a href="# ">LGU Facilities</a></li>
+                    <li><a href="# ">Protect Your Family</a></li>
+                    <li><a href="# ">World Health</a></li>
+                </div>
+
+                <div class="column-4">
+                    <p>Resources</p>
+                    <li><a href="https://www.who.int/ ">WHO Website</a></li>
+                    <li><a href="https://www.cdc.gov/ ">CDC Website</a></li>
+                    <li><a href="https://www.gov.uk/ ">Gov Website</a></li>
+                    <li><a href="https://www.doh.gov.ph/ ">DOH Website</a></li>
+                </div>
+            </div>
+
+            <div class="copyrights ">
+                <p style=" color: gray; font-size: 14px; margin-top: 50px; ">Copyright ©2020 All rights reserved</p>
+            </div>
+
+        </div>
+    </footer>
+    <!-- end of footer  -->
+
+    <script src="jquery-3.5.1.min.js"></script>
+   <script src="main.js"></script>
+</body>
